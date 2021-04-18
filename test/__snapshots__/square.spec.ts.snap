@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Square example model produces expected output 1`] = `
+GLTFAsset {
+  "_scenes": Array [
+    Scene {
+      "_nodes": Array [
+        Node {
+          "_nodes": Array [
+            Node {
+              "_nodes": Array [],
+              "animations": Array [],
+              "mesh": Mesh {
+                "_faceColors": Array [
+                  RGBColor {
+                    "b": 1,
+                    "g": 1,
+                    "r": 1,
+                  },
+                  RGBColor {
+                    "b": 1,
+                    "g": 1,
+                    "r": 1,
+                  },
+                ],
+                "_materialIndices": Array [
+                  0,
+                  0,
+                ],
+                "_vertices": Array [
+                  Vertex {
+                    "normalX": 0,
+                    "normalY": 0,
+                    "normalZ": 0,
+                    "u": 0,
+                    "v": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                  },
+                  Vertex {
+                    "normalX": 0,
+                    "normalY": 0,
+                    "normalZ": 0,
+                    "u": 0,
+                    "v": 0,
+                    "x": 0,
+                    "y": 10,
+                    "z": 0,
+                  },
+                  Vertex {
+                    "normalX": 0,
+                    "normalY": 0,
+                    "normalZ": 0,
+                    "u": 0,
+                    "v": 0,
+                    "x": 10,
+                    "y": 0,
+                    "z": 0,
+                  },
+                  Vertex {
+                    "normalX": 0,
+                    "normalY": 0,
+                    "normalZ": 0,
+                    "u": 0,
+                    "v": 0,
+                    "x": 0,
+                    "y": 10,
+                    "z": 0,
+                  },
+                  Vertex {
+                    "normalX": 0,
+                    "normalY": 0,
+                    "normalZ": 0,
+                    "u": 0,
+                    "v": 0,
+                    "x": 10,
+                    "y": 0,
+                    "z": 0,
+                  },
+                  Vertex {
+                    "normalX": 0,
+                    "normalY": 0,
+                    "normalZ": 0,
+                    "u": 0,
+                    "v": 0,
+                    "x": 10,
+                    "y": 10,
+                    "z": 0,
+                  },
+                ],
+                "material": Array [
+                  Material {
+                    "alphaCutoff": 0.5,
+                    "alphaMode": "OPAQUE",
+                    "doubleSided": true,
+                    "name": "",
+                    "pbrMetallicRoughness": Object {
+                      "baseColorFactor": Array [
+                        0,
+                        0.6,
+                        0,
+                        1,
+                      ],
+                      "metallicFactor": 0,
+                      "roughnessFactor": 0,
+                    },
+                    "vertexColorMode": 0,
+                  },
+                ],
+                "mode": 4,
+              },
+              "name": "",
+            },
+          ],
+          "_rotation": Quaternion {
+            "w": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+          },
+          "_scale": Vector3 {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+          },
+          "_translation": Vector3 {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+          },
+          "animations": Array [],
+          "name": "",
+        },
+      ],
+      "name": "",
+    },
+  ],
+  "copyright": "",
+  "defaultScene": 0,
+  "generator": "glTF-js-utils",
+}
+`;

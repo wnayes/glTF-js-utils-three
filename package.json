@@ -1,0 +1,38 @@
+{
+    "name": "gltf-js-utils-three",
+    "version": "1.0.0",
+    "description": "Convert Three.js models to glTF",
+    "main": "dist/gltf-js-utils-three.js",
+    "types": "./index.d.ts",
+    "scripts": {
+        "build": "webpack",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "Will Nayes",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wnayes/gltf-js-utils-three.git"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.15",
+        "@babel/preset-env": "^7.13.15",
+        "@types/jest": "^26.0.22",
+        "@types/three": "^0.127.0",
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/parser": "^4.22.0",
+        "babel-jest": "^26.6.3",
+        "eslint": "^7.24.0",
+        "jest": "^26.0.0",
+        "ts-jest": "^26.5.5",
+        "ts-loader": "^8.1.0",
+        "typescript": "^4.2.4",
+        "webpack": "^5.33.2",
+        "webpack-cli": "^4.6.0"
+    },
+    "dependencies": {
+        "gltf-js-utils": "^4.0.1",
+        "three": "^0.127.0"
+    }
+}
