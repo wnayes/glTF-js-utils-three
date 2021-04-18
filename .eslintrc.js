@@ -4,6 +4,10 @@ module.exports = {
         browser: true,
         node: true
     },
+    ignorePatterns: [
+        "webpack*config.js",
+        "dist/**"
+    ],
     parser: "@typescript-eslint/parser",
     plugins: [
         "@typescript-eslint",

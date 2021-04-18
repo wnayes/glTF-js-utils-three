@@ -6,7 +6,7 @@
     "lib": [
       "dom", "es5", "es2015.promise"
     ],
-    "strict": true,
-    "isolatedModules": true
-  }
+    "strict": true
+  },
+  "exclude": ["dist"]
 }

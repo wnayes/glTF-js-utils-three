@@ -2,10 +2,10 @@
     "name": "gltf-js-utils-three",
     "version": "1.0.0",
     "description": "Convert Three.js models to glTF",
-    "main": "dist/gltf-js-utils-three.js",
-    "types": "./index.d.ts",
+    "main": "./dist/gltf-js-utils-three.js",
+    "types": "./dist/index.d.ts",
     "scripts": {
-        "build": "webpack",
+        "build": "webpack & tsc --emitDeclarationOnly true --declaration --outFile \"./dist/types.d.ts\"",
         "test": "jest"
     },
     "keywords": [],
@@ -19,6 +19,7 @@
         "@babel/core": "^7.13.15",
         "@babel/preset-env": "^7.13.15",
         "@types/jest": "^26.0.22",
+        "@types/jszip": "^3.4.1",
         "@types/three": "^0.127.0",
         "@typescript-eslint/eslint-plugin": "^4.22.0",
         "@typescript-eslint/parser": "^4.22.0",
@@ -32,7 +33,7 @@
         "webpack-cli": "^4.6.0"
     },
     "dependencies": {
-        "gltf-js-utils": "^4.0.1",
+        "gltf-js-utils": "^5.0.1",
         "three": "^0.127.0"
     }
 }
