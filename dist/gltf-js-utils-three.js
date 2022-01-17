@@ -183,7 +183,7 @@ function MaterialFromTHREE(threeMaterial) {
         }
     }
     else {
-        throw new Error(threeMaterial.type + " is currently not supported.");
+        throw new Error("".concat(threeMaterial.type, " is currently not supported."));
     }
     return material;
 }

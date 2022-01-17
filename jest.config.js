@@ -1,16 +1,12 @@
+/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
-    roots: [
-        "<rootDir>/test"
-    ],
-    testMatch: [
-        "**/__tests__/**/*.+(ts|tsx|js)",
-        "**/?(*.)+(spec|test).+(ts|tsx|js)"
-    ],
-    transform: {
-        "^.+\\.(ts|tsx)$": "ts-jest",
-        "^.+\\.js$": "babel-jest",
-    },
-    "transformIgnorePatterns": [
-        "node_modules/(?!three)"
-    ],
-}
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  transform: {
+    "^.+\\.(ts|tsx)$": "ts-jest",
+    "^.+\\.js$": "babel-jest",
+  },
+  "transformIgnorePatterns": [
+    "node_modules/(?!three)"
+  ],
+};
